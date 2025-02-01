@@ -1,30 +1,15 @@
 <!doctype html>
 <html>
 <head>
-<title>유니팜</title>
-<meta charset="utf-8">
+    <meta charset="utf-8">
+    <title>유니팜</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
+   
 
-<style>
-
-    body {
-    font-weight: 400;
-    font-size: 15px;
-    font-family: 'Nanum Square' ,sans-serif;
-    line-height: 1.8em;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    color: #3c3c3c;
-    margin: 0px;
-    padding: 0px;
-   } 
-
-   ul, li {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-   }
-
-   a {
+    <style>
+           
+    a {
     color: #3c3c3c;
     text-decoration: none;
    }
@@ -77,54 +62,51 @@
     padding-left:30px;
    }
 
-   .contents_wrap {
-    margin-top: 100px;
-    padding-left: 20px;
-   }
-
-    .lecDetail_Title h4 {
-    font-size: 24px;
-    }
-
-
-.table_skin02_curriList tbody td.subject {
-    text-align: left;
-    color: #4e4e4e;
-    padding: 0 0 0 12px !important;
-    font-size: 14px;
+   .area_lecture_list .leccontents-thead,.area_lecture_list .leccontents-td.leccontents-date,.area_lecture_list .leccontents-td.leccontents-book,.area_lecture_list .leccontents-td.leccontents-apply{display:none !important;}
+	.area_lecture_list .leccontents-thumbs {
+    width: 100%;
 }
-
-.table_skin02_curriList tbody td {
-    height: 40px;
-    border-bottom: 1px solid #eeeeee;
-    padding: 0 3px;
-    text-align: center;
-    line-height: 29px;
-}
-
-td, th {
-    padding: 8px;
-    border-width: 0 1px 1px 0;
-}
-
-table, td, th {
-    border: 1px solid var(--ast-border-color);
-}
-
-:root {
-    --ast-border-color: #dddddd;
-}
-
-</style>
-
-
+	.area_lecture_list .leccontents-col{display:block;padding-right:0;}
+	.area_lecture_list .leccontents-col .mobile-contents{display:block;}
+	.area_lecture_list .leccontents-col 
+	.mobile-contents .m-leccontents-btn{margin-top:10px;}
+	.mobile-contents .m-leccontents-btn>div{display:inline-block;}
+	/*.area_lecture_list .leccontents-col .mobile-contents .m-leccontents-btn>div a{border:1px solid #333;  font-size: 14px; display:inline-block;line-height:36px;padding:0 25px;margin-right:5px;border-radius:3px;}*/
+	.area_lecture_list .leccontents-td.leccontents-checkbox{vertical-align: top;  min-width: 40px;}
+	.area_lecture_list .leccontents-apply-checks{  top: 10px;}
+	/*.area_lecture_list .leccontents-col .mobile-contents .m-leccontents-btn .leccontents-cart a{background:#333;color:#fff;}*/
+	.area_lecture_list .leccontents-lecstate{font-size:12px;}
+	.area_lecture_list .leccontents-lecname{font-size:16px;}
+	.area_lecture_list .leccontents-prc-sbj,.area_lecture_list .leccontents-val,.area_lecture_list .leccontents-col .mobile-contents .leccontents-date,.area_lecture_list .leccontents-col .mobile-contents .leccontents-book,.area_lecture_list .leccontents-list-btn{font-size:14px;}
+	.area_lecture_list .leccontents-btn{text-align:center;}
+	
+	.lecDetail .lecture_heading{padding-top:50px;padding-bottom:10px;}
+	.single-product	.elementor-column-gap-default>.elementor-column>.elementor-element-populated{padding:0 !important;}
+	.lecDetail .lecHeader-col.lecListBtn{padding-left:0px !important;width: 40px;padding-right:15px;}
+	.lecDetail .lecHeader-col.lecNavi{width: 60px;}
+	.lecHeader-col.lecNavi a{font-size: 25px;    margin-left: 15px;}
+	.lecDetail .lecHeader-col.lecSubject h3{font-size:16px !important;}
+	.lecDetail .lecHeader{    padding: 10px 0;}
+	.lecDetail .lecDetail_infoBox .lecDetailInfomation{width:100%;}
+	.table_lecInfoDetail th,.table_lecInfoDetail td,.txt_discount{font-size:14px !important;    padding-bottom: 0 !important;}
+	.lecDetail .lecDetail_infoBox .lecImg_thumBox,.lecDetail .lecDetail_infoBox .lecDetailInfomation{padding:0 !important;}
+	.lecDetail .lecDetail_infoBox{margin-bottom:20px;}
+	.table_lecSummary tbody tr th.subject-tit,.table_lecSummary tbody tr td.subject{display:none !important;}
+	.table_lecSummary td.lec-price{width:100% !important;}
+	
+	.lecDetail_Title h4{font-size:18px;}
+	.lecDetail h2{font-size:24px !important;}
+	
+	.single-product .woolentor-woo-template-builder .elementor-widget-shortcode>.elementor-widget-container{padding:50px 0 !important;}
+		
+    </style>
 </head>
 
 <body>
 
     <div class="header">
         <div class="logo_section"><img src="./img/log.jpg"/></div>
-        <div class="page_title">유니팜</div>
+        <div class="page_title"><a href="index.html">유니팜</a></div>
         <div class="main_menu">
             <ul>
                 <li>Proflie</li>
@@ -134,7 +116,7 @@ table, td, th {
      </div>
 
      
-<div class="contents_wrap">
+<div class="contents_wrap2">
 
         <h4>강좌소개</h4>
 
@@ -142,7 +124,7 @@ table, td, th {
         <p> 심혈관계을 시작으로해서 순차적으로 진행되며, 이는 약물치료학 교과 과정에서 제시되는 순서를 따랐습니다.</p>
         <p> 약물치료학을 베이스로 하지만, 약물학, 병태생리학, 미생물학 등등 다양한 교과목의 내용을 아우르는 만큼</p>
         <p> 약사로서의 기본 소양을 키우기를 희망하시는 신입약사님들에게도 충분한 도움을 줄 수 있는 강의라고 생각합니다.</p>
-        <p>（교재는 강의 구매후, 첨부파일로 확인하실 수 있습니다.）</p>
+      
 
 
 <div class="margin60"></div>
