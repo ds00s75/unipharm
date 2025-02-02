@@ -62,43 +62,46 @@
     padding-left:30px;
    }
 
-   .area_lecture_list .leccontents-thead,.area_lecture_list .leccontents-td.leccontents-date,.area_lecture_list .leccontents-td.leccontents-book,.area_lecture_list .leccontents-td.leccontents-apply{display:none !important;}
-	.area_lecture_list .leccontents-thumbs {
-    width: 100%;
+
+
+   .contents_wrap2 {
+    margin-top: 100px;
+    padding-left: 20px;
+   }
+   
+.styled-table {
+    border-collapse: collapse;
+    margin: 0px 1000px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
-	.area_lecture_list .leccontents-col{display:block;padding-right:0;}
-	.area_lecture_list .leccontents-col .mobile-contents{display:block;}
-	.area_lecture_list .leccontents-col 
-	.mobile-contents .m-leccontents-btn{margin-top:10px;}
-	.mobile-contents .m-leccontents-btn>div{display:inline-block;}
-	/*.area_lecture_list .leccontents-col .mobile-contents .m-leccontents-btn>div a{border:1px solid #333;  font-size: 14px; display:inline-block;line-height:36px;padding:0 25px;margin-right:5px;border-radius:3px;}*/
-	.area_lecture_list .leccontents-td.leccontents-checkbox{vertical-align: top;  min-width: 40px;}
-	.area_lecture_list .leccontents-apply-checks{  top: 10px;}
-	/*.area_lecture_list .leccontents-col .mobile-contents .m-leccontents-btn .leccontents-cart a{background:#333;color:#fff;}*/
-	.area_lecture_list .leccontents-lecstate{font-size:12px;}
-	.area_lecture_list .leccontents-lecname{font-size:16px;}
-	.area_lecture_list .leccontents-prc-sbj,.area_lecture_list .leccontents-val,.area_lecture_list .leccontents-col .mobile-contents .leccontents-date,.area_lecture_list .leccontents-col .mobile-contents .leccontents-book,.area_lecture_list .leccontents-list-btn{font-size:14px;}
-	.area_lecture_list .leccontents-btn{text-align:center;}
-	
-	.lecDetail .lecture_heading{padding-top:50px;padding-bottom:10px;}
-	.single-product	.elementor-column-gap-default>.elementor-column>.elementor-element-populated{padding:0 !important;}
-	.lecDetail .lecHeader-col.lecListBtn{padding-left:0px !important;width: 40px;padding-right:15px;}
-	.lecDetail .lecHeader-col.lecNavi{width: 60px;}
-	.lecHeader-col.lecNavi a{font-size: 25px;    margin-left: 15px;}
-	.lecDetail .lecHeader-col.lecSubject h3{font-size:16px !important;}
-	.lecDetail .lecHeader{    padding: 10px 0;}
-	.lecDetail .lecDetail_infoBox .lecDetailInfomation{width:100%;}
-	.table_lecInfoDetail th,.table_lecInfoDetail td,.txt_discount{font-size:14px !important;    padding-bottom: 0 !important;}
-	.lecDetail .lecDetail_infoBox .lecImg_thumBox,.lecDetail .lecDetail_infoBox .lecDetailInfomation{padding:0 !important;}
-	.lecDetail .lecDetail_infoBox{margin-bottom:20px;}
-	.table_lecSummary tbody tr th.subject-tit,.table_lecSummary tbody tr td.subject{display:none !important;}
-	.table_lecSummary td.lec-price{width:100% !important;}
-	
-	.lecDetail_Title h4{font-size:18px;}
-	.lecDetail h2{font-size:24px !important;}
-	
-	.single-product .woolentor-woo-template-builder .elementor-widget-shortcode>.elementor-widget-container{padding:50px 0 !important;}
-		
+
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
     </style>
 </head>
 
@@ -110,7 +113,7 @@
         <div class="main_menu">
             <ul>
                 <li>Proflie</li>
-                <li>약물치료학[기본]</li>
+                <li><a href="약물치료학[기본편].html">약물치료학[기본]</a></li>
                 <li class="login_menu">로그인/회원가입</li>
             </ul>
      </div>
@@ -121,97 +124,91 @@
         <h4>강좌소개</h4>
 
         <p><strong>약물치료학[기본편]_심혈관계</strong>는 약물치료학을 처음 접하게되는 학생분들을 위한 강의입니다.</p>
-        <p> 심혈관계을 시작으로해서 순차적으로 진행되며, 이는 약물치료학 교과 과정에서 제시되는 순서를 따랐습니다.</p>
+        <p> 고혈압을 시작으로해서 순차적으로 진행되며, 이는 약물치료학 교과 과정에서 제시되는 순서를 따랐습니다.</p>
         <p> 약물치료학을 베이스로 하지만, 약물학, 병태생리학, 미생물학 등등 다양한 교과목의 내용을 아우르는 만큼</p>
         <p> 약사로서의 기본 소양을 키우기를 희망하시는 신입약사님들에게도 충분한 도움을 줄 수 있는 강의라고 생각합니다.</p>
-      
+</div>      
 
 
-<div class="margin60"></div>
-<a name="tabView"></a>
-<div class="lecDetail_detailList">
-    <div class="lecDetail_boardArea">
-                    <div class="lecDetail_curriList_title">
-            <div class="lecDetail_Title"><h4>커리큘럼</h4></div>
-            <div class="des">강좌 회차별 커리큘럼 안내입니다. 강좌의 진행에 따라 변경 될 수 있습니다.</div>
-        </div>
-        <div class="clear"></div>
-        <table class="table_skin02_curriList">
-            <thead>
-                <tr>
-                    <th>회차</th>
-                    <th>단원명</th>
-                    <th>강의시간</th>
-                </tr>
-            </thead>
-            <tbody>
-                                                                <tr>
-                        <td class="seq">1</td>
-                        <td class="subject"><a href="https://youtu.be/0C3P5okUkyg?si=0PWXF4jJvlcjrSh3">고혈압(1) 개념정리</a></td>
-                        <td class="time">
-                            20분							</td>
+
+
+            <table class="styled-table">
+                
+                <thead>
+                    <tr>
+                        <th>회차</th>
+                        <th>단원명</th>
+                        <th>강의시간</th>
                     </tr>
-                                                                                        <tr>
-                        <td class="seq">2</td>
-                        <td class="subject"><a href="https://youtu.be/0hvbcYclGQs?si=d4cskowivlagrXz2">고혈압(2)_고혈압약제의 병용요법</a></td>
-                        <td class="time">
-                            10분							</td>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="https://youtu.be/0C3P5okUkyg?si=M-6fCUc_3fl9nCKG">고혈압(1) 개념정리</a></td>
+                        <td>20분</td>
                     </tr>
-                                                                                        <tr>
-                        <td class="seq">3</td>
-                        <td class="subject"><a href="https://youtu.be/gPb5PVY2F6Y?si=_-xXpqnYjX3qbmSh">고혈압(3)_CCB 작용기전</a></td>
-                        <td class="time">
-                            15분							</td>
+
+                    <tr>
+                        <td>2</td>
+                        <td><a href="https://youtu.be/0hvbcYclGQs?si=pY1al1bjgt99y-eD">고혈압(2)_고혈압약제의 병용요법</a></td>
+                        <td>10분</td>
                     </tr>
-                                                                                        <tr>
-                        <td class="seq">4</td>
-                        <td class="subject"><a href="https://youtu.be/WfkmwpsN9vM?si=Uq4JDC1tny2hFDKe">심부전 개념정리 _ 병태생리와 약제선택</a></td>
-                        <td class="time">
-                            12분							</td>
+                    
+                    <tr>
+                        <td>3</td>
+                        <td><a href="https://youtu.be/gPb5PVY2F6Y?si=XJ5Rdb_0rF6VYD06">고혈압(3)_CCB 작용기전</a></td>
+                        <td>10분</td>
                     </tr>
-                                                                                        <tr>
-                        <td class="seq">5</td>
-                        <td class="subject"><a href="https://youtu.be/eAobKl1vSOw?si=Q49bGJd_jNxeQ3id">허혈성심질환 개념정리</a></td>
-                        <td class="time">
-                            20분							</td>
+
+                    <tr>
+                        <td>4</td>
+                        <td><a href="https://youtu.be/WfkmwpsN9vM?si=cc8hXTy1W0x1X2OY">심부전 개념정리_병태생리와 약제선택</a></td>
+                        <td>15분</td>
                     </tr>
-                                                                                        <tr>
-                        <td class="seq">6</td>
-                        <td class="subject"><a href="https://youtu.be/-kMUFuqjt5k?si=ULGxs5jAowis_1R8">급성관상동맥증후군 개념정리</a></td>
-                        <td class="time">
-                            20분							</td>
+
+                    <tr>
+                        <td>5</td>
+                        <td><a href="https://youtu.be/eAobKl1vSOw?si=B_VhhHawa_qj_HAD">허혈성심질환 개념정리</a></td>
+                        <td>20분</td>
                     </tr>
-                                                                                        <tr>
-                        <td class="seq">7</td>
-                        <td class="subject"><a href="https://youtu.be/dwAFCaYv8g4?si=4Mxx7lo3-6OMBNTl">뇌졸중 개념정리</a></td>
-                        <td class="time">
-                            10분							</td>
+
+                    <tr>
+                        <td>6</td>
+                        <td><a href="https://youtu.be/-kMUFuqjt5k?si=hrQE36xxp36rjN4B">급성관상동맥증후군 개념정리</a></td>
+                        <td>20분</td>
                     </tr>
-                                                                                        <tr>
-                        <td class="seq">8</td>
-                        <td class="subject"><a href="https://youtu.be/-qFRc4TZDCU?si=RDS1M3ct-2jqdizL">정맥혈전색전증 개념정리</a></td>
-                        <td class="time">
-                            15분							</td>
+
+                    <tr>
+                        <td>7</td>
+                        <td><a href="https://youtu.be/dwAFCaYv8g4?si=qjGwao2zFXWJ-2Tb">뇌졸중 개념정리</a></td>
+                        <td>10분</td>
                     </tr>
-                                                                                        <tr>
-                        <td class="seq">9</td>
-                        <td class="subject"><a href="https://youtu.be/pjtYDzGu4T4?si=T4IckAxBxu0g9R_P">부정맥(1) 개념정리</a></td>
-                        <td class="time">
-                            20분							</td>
+
+                    <tr>
+                        <td>8</td>
+                        <td><a href="https://youtu.be/-qFRc4TZDCU?si=QkcuaUieWfNblUMI">정맥혈전색전증 개념정리</a></td>
+                        <td>15분</td>
                     </tr>
-                                                                                        <tr>
-                        <td class="seq">10</td>
-                        <td class="subject"><a href="https://youtu.be/dVbALZ0IwrM?si=HU8_U44tpy4d10AR">부정맥(2) 개념정리</a></td>
-                        <td class="time">
-                            20분							</td>
+
+                    <tr>
+                        <td>9</td>
+                        <td><a href="https://youtu.be/pjtYDzGu4T4?si=GLjQhgYX8JQORW7J">부정맥(1) 개념정리</a></td>
+                        <td>20분</td>
                     </tr>
-                                                                                        <tr>
-                       
-                                                        </tbody>
-        </table>
+
+                    <tr>
+                        <td>9</td>
+                        <td><a href="https://youtu.be/dVbALZ0IwrM?si=zeTlccj2Gnx4re4E">부정맥(2) 개념정리</a></td>
+                        <td>20분</td>
+                    </tr>
+                    <!-- and so on... -->
+                </tbody>
+            </table>
+            
                 </div>
 </div>
-</div>
+
 
 
 </body>
